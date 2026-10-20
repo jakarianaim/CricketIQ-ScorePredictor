@@ -1,4 +1,4 @@
-# \# 🏏 CricketIQ — Batter Runs Predictor \& Matchup Analyzer
+# \## 🏏 CricketIQ — Batter Runs Predictor \& Matchup Analyzer
 
 # 
 
@@ -6,7 +6,7 @@
 
 # 
 
-# \## ✨ Key Features
+# \### ✨ Key Features
 
 # 
 
@@ -24,7 +24,7 @@
 
 # 
 
-# \## 🛠️ Tech Stack
+# \### 🛠️ Tech Stack
 
 # 
 
@@ -38,43 +38,25 @@
 
 # 
 
-# \## 🚀 Getting Started
+# \### 🚀 Getting Started
 
 # 
 
-# \### 1. Install Dependencies
+# \*\*1. Install Dependencies\*\*
+
+# `pip install -r requirements.txt`
 
 # 
 
-# ```bash
+# \*\*2. Start the API Server\*\*
 
-# pip install -r requirements.txt
-
-# ```
+# `uvicorn main:app --host 127.0.0.1 --port 8000 --reload`
 
 # 
 
-# \### 2. Start the API Server
+# \*\*3. Start the PHP Frontend\*\*
 
-# 
-
-# ```bash
-
-# uvicorn main:app --host 127.0.0.1 --port 8000 --reload
-
-# ```
-
-# 
-
-# \### 3. Start the PHP Frontend
-
-# 
-
-# ```bash
-
-# php -S 127.0.0.1:8080
-
-# ```
+# `php -S 127.0.0.1:8080`
 
 # 
 
@@ -86,37 +68,33 @@
 
 # 
 
-# \## 📂 Project Structure
+# \### 📂 Project Structure
 
 # 
 
-# ```text
+# &#x20;   CricketIQ/
 
-# CricketIQ/
+# &#x20;   ├── data/                        # IPL dataset and player statistics
 
-# ├── data/                       # IPL dataset and player statistics
+# &#x20;   ├── main.py                      # FastAPI prediction API
 
-# ├── main.py                     # FastAPI prediction API
+# &#x20;   ├── index.php                    # Web application interface
 
-# ├── index.php                   # Web application interface
+# &#x20;   ├── extract\_players.py           # Data processing pipeline
 
-# ├── extract\_players.py           # Data processing pipeline
+# &#x20;   ├── requirements.txt             # Python dependencies
 
-# ├── requirements.txt             # Python dependencies
+# &#x20;   ├── cricket\_runs\_predictor\_model.pkl
 
-# ├── cricket\_runs\_predictor\_model.pkl
+# &#x20;   ├── cricket\_50\_runs\_classifier\_model.json
 
-# ├── cricket\_50\_runs\_classifier\_model.json
+# &#x20;   ├── model\_features\_list.pkl
 
-# ├── model\_features\_list.pkl
-
-# └── README.md
-
-# ```
+# &#x20;   └── README.md
 
 # 
 
-# \## 📊 Prediction Models
+# \### 📊 Prediction Models
 
 # 
 
@@ -127,10 +105,4 @@
 # | Random Forest Regressor | Predicts expected batter runs |
 
 # | XGBoost Classifier | Predicts the probability of scoring 50+ runs |
-
-# 
-
-# 
-
-
 
