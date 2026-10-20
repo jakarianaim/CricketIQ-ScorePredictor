@@ -1,4 +1,4 @@
-# \## 🏏 CricketIQ — Batter Runs Predictor \& Matchup Analyzer
+# 🏏 \*\*CricketIQ — Batter Runs Predictor \& Matchup Analyzer\*\*
 
 # 
 
@@ -6,7 +6,7 @@
 
 # 
 
-# \### ✨ Key Features
+# ✨ \*\*Key Features\*\*
 
 # 
 
@@ -24,7 +24,7 @@
 
 # 
 
-# \### 🛠️ Tech Stack
+# 🛠️ \*\*Tech Stack\*\*
 
 # 
 
@@ -38,7 +38,7 @@
 
 # 
 
-# \### 🚀 Getting Started
+# 🚀 \*\*Getting Started\*\*
 
 # 
 
@@ -68,7 +68,7 @@
 
 # 
 
-# \### 📂 Project Structure
+# 📂 \*\*Project Structure\*\*
 
 # 
 
@@ -94,7 +94,7 @@
 
 # 
 
-# \### 📊 Prediction Models
+# 📊 \*\*Prediction Models\*\*
 
 # 
 
