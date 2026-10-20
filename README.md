@@ -44,8 +44,6 @@
 
 # <small>\*\*1. Install Dependencies\*\*</small>
 
-# 
-
 # ```bash
 
 # pip install -r requirements.txt
@@ -55,8 +53,6 @@
 # 
 
 # <small>\*\*2. Start the API Server\*\*</small>
-
-# 
 
 # ```bash
 
@@ -68,8 +64,6 @@
 
 # <small>\*\*3. Start the PHP Frontend\*\*</small>
 
-# 
-
 # ```bash
 
 # php -S 127.0.0.1:8080
@@ -79,8 +73,6 @@
 # 
 
 # <small>Open \*\*http://127.0.0.1:8080/index.php\*\* in your browser.</small>
-
-# 
 
 # <small>API documentation: \*\*http://127.0.0.1:8000/docs\*\*</small>
 
@@ -94,15 +86,15 @@
 
 # CricketIQ/
 
-# ├── data/                              # IPL dataset and player statistics
+# ├── data/                       # IPL dataset and player statistics
 
-# ├── main.py                            # FastAPI prediction API
+# ├── main.py                     # FastAPI prediction API
 
-# ├── index.php                          # Web application interface
+# ├── index.php                   # Web application interface
 
-# ├── extract\_players.py                 # Data processing pipeline
+# ├── extract\_players.py          # Data processing pipeline
 
-# ├── requirements.txt                   # Python dependencies
+# ├── requirements.txt            # Python dependencies
 
 # ├── cricket\_runs\_predictor\_model.pkl
 
@@ -127,6 +119,4 @@
 # | <small>Random Forest Regressor</small> | <small>Predicts expected batter runs</small> |
 
 # | <small>XGBoost Classifier</small> | <small>Predicts the probability of scoring 50+ runs</small> |
-
-
 
