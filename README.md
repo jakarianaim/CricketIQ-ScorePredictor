@@ -1,122 +1,108 @@
-# <small>\*\*🏏 CricketIQ — Batter Runs Predictor \& Matchup Analyzer\*\*</small>
+# 🏏 \*\*CricketIQ — Batter Runs Predictor \& Matchup Analyzer\*\*
 
 # 
 
-# <small>CricketIQ is a machine-learning-powered cricket analytics platform that predicts individual batter performance in IPL/T20 matches. It estimates expected runs and the probability of scoring 50 or more runs using historical IPL data and match context.</small>
+# CricketIQ is a machine-learning-powered cricket analytics platform that predicts individual batter performance in IPL/T20 matches. It estimates expected runs and the probability of scoring 50 or more runs using historical IPL data and match context.
 
 # 
 
-# <small>\*\*✨ Key Features\*\*</small>
+# ✨ \*\*Key Features\*\*
 
 # 
 
-# \- <small>\*\*Runs Prediction:\*\* Predicts expected runs using a Random Forest Regressor.</small>
+# \*\*1. Prediction Models:\*\*
 
-# \- <small>\*\*Half-Century Probability:\*\* Estimates the chance of scoring 50+ runs using XGBoost.</small>
+# \- \*\*Runs Prediction:\*\* Predicts expected runs using a Random Forest Regressor.
 
-# \- <small>\*\*Player Analytics:\*\* Analyzes recent form, batting average, and strike rate.</small>
-
-# \- <small>\*\*Venue \& Opponent Analysis:\*\* Considers historical ground performance and records against opposing franchises.</small>
-
-# \- <small>\*\*Matchup Validation:\*\* Prevents invalid selections against a player's own franchise.</small>
-
-# \- <small>\*\*Interactive Dashboard:\*\* Provides real-time predictions through a responsive web interface.</small>
+# \- \*\*Half-Century Probability:\*\* Estimates the chance of scoring 50+ runs using XGBoost.
 
 # 
 
-# <small>\*\*🛠️ Tech Stack\*\*</small>
+# \*\*2. Analytics \& Validation:\*\*
+
+# \- \*\*Player Analytics:\*\* Analyzes recent form, batting average, and strike rate.
+
+# \- \*\*Venue \& Opponent Analysis:\*\* Considers historical ground performance and records against opposing franchises.
+
+# \- \*\*Matchup Validation:\*\* Prevents invalid selections against a player's own franchise.
 
 # 
 
-# \- <small>\*\*Frontend:\*\* PHP, HTML, CSS, JavaScript</small>
+# \*\*3. User Interface:\*\*
 
-# \- <small>\*\*Backend:\*\* Python, FastAPI</small>
-
-# \- <small>\*\*Machine Learning:\*\* Scikit-learn, Random Forest, XGBoost</small>
-
-# \- <small>\*\*Dataset:\*\* Historical IPL ball-by-ball data</small>
+# \- \*\*Interactive Dashboard:\*\* Provides real-time predictions through a responsive web interface.
 
 # 
 
-# <small>\*\*🚀 Getting Started\*\*</small>
+# 🛠️ \*\*Tech Stack\*\*
 
 # 
 
-# <small>\*\*1. Install Dependencies\*\*</small>
+# \- \*\*Frontend:\*\* PHP, HTML, CSS, JavaScript
 
-# ```bash
+# \- \*\*Backend:\*\* Python, FastAPI
 
-# pip install -r requirements.txt
+# \- \*\*Machine Learning:\*\* Scikit-learn, Random Forest, XGBoost
 
-# ```
-
-# 
-
-# <small>\*\*2. Start the API Server\*\*</small>
-
-# ```bash
-
-# uvicorn main:app --host 127.0.0.1 --port 8000 --reload
-
-# ```
+# \- \*\*Dataset:\*\* Historical IPL ball-by-ball data
 
 # 
 
-# <small>\*\*3. Start the PHP Frontend\*\*</small>
-
-# ```bash
-
-# php -S 127.0.0.1:8080
-
-# ```
+# 🚀 \*\*Getting Started\*\*
 
 # 
 
-# <small>Open \*\*http://127.0.0.1:8080/index.php\*\* in your browser.</small>
+# \*\*1. Install Dependencies:\*\*
 
-# <small>API documentation: \*\*http://127.0.0.1:8000/docs\*\*</small>
-
-# 
-
-# <small>\*\*📂 Project Structure\*\*</small>
+# Run `pip install -r requirements.txt`
 
 # 
 
-# ```text
+# \*\*2. Start the API Server:\*\*
 
-# CricketIQ/
-
-# ├── data/                       # IPL dataset and player statistics
-
-# ├── main.py                     # FastAPI prediction API
-
-# ├── index.php                   # Web application interface
-
-# ├── extract\_players.py          # Data processing pipeline
-
-# ├── requirements.txt            # Python dependencies
-
-# ├── cricket\_runs\_predictor\_model.pkl
-
-# ├── cricket\_50\_runs\_classifier\_model.json
-
-# ├── model\_features\_list.pkl
-
-# └── README.md
-
-# ```
+# Run `uvicorn main:app --host 127.0.0.1 --port 8000 --reload`
 
 # 
 
-# <small>\*\*📊 Prediction Models\*\*</small>
+# \*\*3. Start the PHP Frontend:\*\*
+
+# Run `php -S 127.0.0.1:8080`
 
 # 
 
-# | <small>Model</small> | <small>Purpose</small> |
+# Open `http://127.0.0.1:8080/index.php` in your browser.
 
-# |---|---|
+# API documentation: `http://127.0.0.1:8000/docs`
 
-# | <small>Random Forest Regressor</small> | <small>Predicts expected batter runs</small> |
+# 
 
-# | <small>XGBoost Classifier</small> | <small>Predicts the probability of scoring 50+ runs</small> |
+# 📂 \*\*Project Structure\*\*
+
+# 
+
+# \- `data/` - IPL dataset and player statistics
+
+# \- `main.py` - FastAPI prediction API
+
+# \- `index.php` - Web application interface
+
+# \- `extract\_players.py` - Data processing pipeline
+
+# \- `requirements.txt` - Python dependencies
+
+# \- `cricket\_runs\_predictor\_model.pkl` - Prediction model file
+
+# \- `cricket\_50\_runs\_classifier\_model.json` - Classifier model file
+
+# \- `model\_features\_list.pkl` - Feature columns list
+
+# 
+
+# 📊 \*\*Prediction Models\*\*
+
+# 
+
+# \- \*\*Random Forest Regressor:\*\* Predicts expected batter runs.
+
+# \- \*\*XGBoost Classifier:\*\* Predicts the probability of scoring 50+ runs.
 
