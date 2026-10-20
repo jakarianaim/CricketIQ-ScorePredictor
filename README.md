@@ -44,25 +44,45 @@
 
 # <small>\*\*1. Install Dependencies\*\*</small>
 
-# <small>`pip install -r requirements.txt`</small>
+# 
+
+# ```bash
+
+# pip install -r requirements.txt
+
+# ```
 
 # 
 
 # <small>\*\*2. Start the API Server\*\*</small>
 
-# <small>`uvicorn main:app --host 127.0.0.1 --port 8000 --reload`</small>
+# 
+
+# ```bash
+
+# uvicorn main:app --host 127.0.0.1 --port 8000 --reload
+
+# ```
 
 # 
 
 # <small>\*\*3. Start the PHP Frontend\*\*</small>
 
-# <small>`php -S 127.0.0.1:8080`</small>
+# 
+
+# ```bash
+
+# php -S 127.0.0.1:8080
+
+# ```
 
 # 
 
-# <small>Open `http://127.0.0.1:8080/index.php` in your browser.</small>
+# <small>Open \*\*http://127.0.0.1:8080/index.php\*\* in your browser.</small>
 
-# <small>API documentation: `http://127.0.0.1:8000/docs`</small>
+# 
+
+# <small>API documentation: \*\*http://127.0.0.1:8000/docs\*\*</small>
 
 # 
 
@@ -70,25 +90,29 @@
 
 # 
 
-# <small>CricketIQ/</small>
+# ```text
 
-# <small>├── data/                        # IPL dataset and player statistics</small>
+# CricketIQ/
 
-# <small>├── main.py                      # FastAPI prediction API</small>
+# ├── data/                              # IPL dataset and player statistics
 
-# <small>├── index.php                    # Web application interface</small>
+# ├── main.py                            # FastAPI prediction API
 
-# <small>├── extract\_players.py           # Data processing pipeline</small>
+# ├── index.php                          # Web application interface
 
-# <small>├── requirements.txt             # Python dependencies</small>
+# ├── extract\_players.py                 # Data processing pipeline
 
-# <small>├── cricket\_runs\_predictor\_model.pkl</small>
+# ├── requirements.txt                   # Python dependencies
 
-# <small>├── cricket\_50\_runs\_classifier\_model.json</small>
+# ├── cricket\_runs\_predictor\_model.pkl
 
-# <small>├── model\_features\_list.pkl</small>
+# ├── cricket\_50\_runs\_classifier\_model.json
 
-# <small>└── README.md</small>
+# ├── model\_features\_list.pkl
+
+# └── README.md
+
+# ```
 
 # 
 
@@ -96,7 +120,13 @@
 
 # 
 
-# \- <small>\*\*Random Forest Regressor:\*\* Predicts expected batter runs</small>
+# | <small>Model</small> | <small>Purpose</small> |
 
-# \- <small>\*\*XGBoost Classifier:\*\* Predicts the probability of scoring 50+ runs</small>
+# |---|---|
+
+# | <small>Random Forest Regressor</small> | <small>Predicts expected batter runs</small> |
+
+# | <small>XGBoost Classifier</small> | <small>Predicts the probability of scoring 50+ runs</small> |
+
+
 
